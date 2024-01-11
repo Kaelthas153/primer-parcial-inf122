@@ -313,16 +313,10 @@ body {
     background-size: cover;
     background-position: 50% 50%;
 }
-
-
 .group-2 {
-
     top: 0;
     left: 395px;
-
-
 }
-
 .group-2 img {
     height: 275px;
 }
@@ -330,10 +324,7 @@ body {
 .group-3 {
     top: 274px;
     left: 1px;
-
-
 }
-
 .group-4 {
     top: 548px;
     left: 1px;
@@ -343,21 +334,14 @@ body {
 .group-5 {
     top: 274px;
     left: 395px;
-
 }
-
 .group-6 {
     top: 548px;
     left: 395px;
-
 }
-
-
-
 .contenedor {
     position: relative;
     width: 362px;
-
     height: 250px;
 
 }
@@ -394,6 +378,7 @@ img {
     transition: opacity 0.3s ease;
     font-family: "Poppins-Medium", Helvetica;
 }
+
 .texto2 {
     text-align: center;
     position: absolute;
@@ -418,8 +403,17 @@ img {
 }
 
 @media(max-width: 720px) {
-    img
-    {
-        height: 10000px;
+    .tabs-content {
+        position: absolute;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        width: 376px;
+        height: auto;
+        top: 982px;
+        left: 485px;
+        border-radius: 20px;
+        overflow: hidden;
+        justify-content: center;
+        margin-left: -100px;
     }
 }
